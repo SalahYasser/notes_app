@@ -11,7 +11,7 @@ class AddNoteBottomSheet extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: SingleChildScrollView(
         child: Column(
-          children: [
+          children: const [
             SizedBox(
               height: 32,
             ),
@@ -22,7 +22,7 @@ class AddNoteBottomSheet extends StatelessWidget {
               height: 16,
             ),
             CustomTextField(
-              hint: 'contant',
+              hint: 'content',
               maxLines: 5,
             ),
             SizedBox(
