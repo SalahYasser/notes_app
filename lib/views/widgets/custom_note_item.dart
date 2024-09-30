@@ -19,7 +19,7 @@ class CustomNoteItem extends StatelessWidget {
         );
       },
       child: Container(
-        padding: EdgeInsets.only(top: 24, bottom: 24, left: 16),
+        padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
         decoration: BoxDecoration(
           color: Color(0xffFFCC80),
           borderRadius: BorderRadius.circular(16),
@@ -28,7 +28,7 @@ class CustomNoteItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             ListTile(
-              title: Text(
+              title: const Text(
                 'Flutter Tips',
                 style: TextStyle(
                   fontSize: 26,
@@ -47,10 +47,10 @@ class CustomNoteItem extends StatelessWidget {
               ),
               trailing: IconButton(
                 onPressed: () {},
-                icon: Icon(
+                icon: const Icon(
                   FontAwesomeIcons.trash,
                   color: Colors.black,
-                  size: 24,
+                  size: 20,
                 ),
               ),
             ),
