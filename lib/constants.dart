@@ -1,6 +1,6 @@
 import 'package:flutter/animation.dart';
 
-const kPrimaryColor = Color(0XFF62FCD7);
+const kPrimaryColor = Color(0xffFFF0D1);
 
 const kNotesBox = 'notes_box';
 
